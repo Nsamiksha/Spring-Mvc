@@ -20,6 +20,7 @@ public class LoginController {
 
 	@Autowired
   private IService userService;
+	
 
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public ModelAndView showLogin(HttpServletRequest request, HttpServletResponse response) {
