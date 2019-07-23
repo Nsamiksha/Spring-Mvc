@@ -33,6 +33,7 @@ public class ServiceImpl implements IService {
 		user.setPhone(userDto.getPhone());
 		user.setRegDate(formattedDate);
 		dao.register(user);
+		System.out.println("");
 	}
 
 	@Override
