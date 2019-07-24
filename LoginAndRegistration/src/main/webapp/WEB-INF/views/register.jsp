@@ -46,8 +46,8 @@
 				<td><form:input path="phone" name="phone" id="phone" /></td>
 			</tr>
 			<tr>
-				<td><form:label path="mobile">Phone</form:label></td>
-				<td><form:input path="mobile" name="mobile" id="mobile" /></td>
+				<td><form:label path="mobil">Phone</form:label></td>
+				<td><form:input path="mobil" name="mobil" id="mobil" /></td>
 			</tr>
 			<tr>
 				<td></td>
